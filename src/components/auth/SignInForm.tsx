@@ -46,7 +46,7 @@ export default function SignInForm() {
 
       // Only store user data if it exists
       if (data.user && data.accessToken) {
-        setSuccess('Login successful!');
+        setSuccess('Login successfull!');
         setForm({ email: '', password: '' });
         const userData = {
           id: data.user.id,
